@@ -15,7 +15,7 @@ const query = new DB()
     .get();
 
 Query with Subquery and EXISTS
-import DB from 'sql-query-builder-js';
+import DB from 'sql-query-builder-ts';
 
   const subquery = new DB()
         .table('subquery')
